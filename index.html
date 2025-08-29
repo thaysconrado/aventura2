@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventura</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main>
-        <div>
-            <P>um dia desse eu estava pela rua e apareceu um monge perguntando se eu queria encontar um jardim secreto.
-                <button>são mateus do sul<button>
-                
-            </P>
+        <div class="passo ativo" id="passo-0">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade
+                perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para
+                encontrar essa cidade e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">pela floresta </button>
+            <button class="btn-proximo" data-proximo="2">pela estrada cheia de barrro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada pela floresta, subindo a bela floresta ao amanhecer para encontrar a primeira
+                pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na montanha assombrada</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa sem saber oq tinha lá</button>
         </div>
     </main>
 </body>
+
 </html>

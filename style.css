@@ -22,9 +22,15 @@ button {
 }
 
 .passo{
-    display; none;
+    display none;
 }
-
 .passo.ativo{
-    dis
+    display: block
 }
+    mai{ 
+        max-width: 90%;
+        text-align: center;
+    }
+     img{
+        max-width: 90%;
+     }
